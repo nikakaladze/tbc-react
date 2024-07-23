@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_big-message{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.padding-global{
+    padding-left: 47px;
+    padding-left: 47px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-message_text{
+    color: #141719;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.5;
+}
