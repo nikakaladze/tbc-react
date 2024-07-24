@@ -34,7 +34,7 @@ margin-right: auto;
     flex: none;
     align-items: center;
     font-size: 14px;
-    font-weight: 700;
+    font-family: 'TBCXBold';
     line-height: 1.4;
     text-decoration: none;
     transition: color .25s ease-in-out;
@@ -51,10 +51,9 @@ margin-right: auto;
 }
 
 .button_text {
-    z-index: 2;
-    margin-top: 2px;
-    transition: transform .6s ease-out;
-    position: relative;
+   font-size: 14px;
+   font-family: 'TBCXBold';
+   
 }
 
 .card-container{
@@ -90,13 +89,18 @@ margin-right: auto;
     padding-bottom: 1rem;
     color: #6F787B;
     font-size: 14px;
-    font-weight: 700;
+    font-family: 'TBCXBold';
     font-size: 12px;
 } 
 
 .card-content h3{
     font-size: 16px;
     color: #141719;
-    font-weight: 700;
+    font-family: 'TBCXBold';
     
+}
+h2{
+    color: #141719;
+    font-size: 24px;
+    font-family: 'TBCXBold';
 }

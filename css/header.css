@@ -39,7 +39,7 @@ nav ul li {
     font-size: 14px;
     white-space: nowrap;
     color:#222222;
-    font-family:'TBCXRegular';
+    font-family: 'TBCXRegular';
 }
 
 /* //--Lang-toggle-Style--// */
@@ -65,10 +65,20 @@ nav ul li {
     flex-shrink: 0;
 }
 
-.button_text:hover {
+.search-bar:hover{
+    color: #182cc0;
+
+}
+.button_text{
+    color: #182cc0;
+    font-family: 'TBCXBold';
+    font-size: 14px;
+}
+
+.button_text:hover{
     color: #007aff;
 }
-.b
+
 
 .arrow_link:hover {
     color: #007aff;
