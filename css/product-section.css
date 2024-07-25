@@ -14,10 +14,10 @@
     margin-right: auto;
 
 }
-h2{
+
+.product-header-wrapper{
     margin-bottom: 36px;
 }
-
 .product-card-container{
     display: flex;
     gap: 30px;

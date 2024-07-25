@@ -18,7 +18,9 @@ h2 {
     color: #141719;
 
 }
-
+.concept-top{
+    margin-bottom:36px;
+}
 .grid-image {
     min-width: fit-content;
     min-height: 256px;
