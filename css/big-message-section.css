@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.section_big-message{
+.section-big-message{
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -21,7 +21,7 @@
     margin-right: auto;
 }
 
-.big-message_text{
+.big-message-text{
     color: #141719;
     font-size: 32px;
     font-family: 'TBCXMedium';

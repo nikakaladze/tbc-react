@@ -34,7 +34,11 @@ h2 {
 }
 
 .second-image {
+
     background-image: url(../image/meeting.png);
+    grid-row: span 2;
+    background-size: cover;
+    aspect-ratio: auto;
 
 }
 

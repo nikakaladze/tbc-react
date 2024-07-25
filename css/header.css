@@ -69,18 +69,18 @@ nav ul li {
     color: #182cc0;
 
 }
-.button_text{
+.button-text{
     color: #182cc0;
     font-family: 'TBCXBold';
     font-size: 14px;
 }
 
-.button_text:hover{
+.button-text:hover{
     color: #007aff;
 }
 
 
-.arrow_link:hover {
+.arrow-link:hover {
     color: #007aff;
 }
 
@@ -88,20 +88,20 @@ nav ul li {
 /* //---Header-Menu---Style--// */
 
 
-.header_buttons {
+.header-buttons {
     display: flex;
     gap: 16px;
     align-items: center;
 }
 
-.nav_subscribe {
+.nav-subscribe {
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
 /* //----Arrow--Icon-Styles--// */
-.arrow_link {
+.arrow-link {
     grid-column-gap: 6px;
     color: #182cc0;
     text-transform: uppercase;

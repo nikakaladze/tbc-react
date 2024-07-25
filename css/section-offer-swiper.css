@@ -41,7 +41,7 @@ margin-right: auto;
     display: flex;
 }
 
-.button_icon {
+.button-icon {
     z-index: 2;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ margin-right: auto;
     position: relative;
 }
 
-.button_text {
+.button-text {
    font-size: 14px;
    font-family: 'TBCXBold';
    
@@ -103,4 +103,11 @@ h2{
     color: #141719;
     font-size: 24px;
     font-family: 'TBCXBold';
+}
+.category-wrapper{
+    display: flex;
+
+}
+.category-wrapper p{
+    margin-right: 12px;
 }

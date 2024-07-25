@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.breadcrumbs_component{
+.breadcrumbs-component{
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -32,7 +32,7 @@
     overflow: hidden;
 }
 
-.breadcrumbs_current-page{
+.breadcrumbs-current-page{
     color: #141719;
     font-family: 'TBCXMedium';
     font-size: 12px;
@@ -40,7 +40,7 @@
 
 /* /////////////////////////////////////////// */
 
-.section_home-hero{
+.section-home-hero{
     padding-bottom: 60px;
     padding-top: 32px;
 
@@ -52,7 +52,7 @@
     border-radius: 6px;
     
 }
-.banner_content{
+.banner-content{
         padding:130px 80px; 
         min-height: 360px;
         display: flex;
