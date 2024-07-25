@@ -1,0 +1,39 @@
+.award-section{
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+}
+
+.award-heading{
+    margin-bottom: 36px;
+}
+h3{
+    font-family: 'TBCXBold';
+    font-size: 16px;
+
+}
+.award-card-container{
+    display: flex;
+    gap: 20px;
+
+}
+.award-card-container{
+    height: 241px;
+    border-radius: 8px;
+    border: 1px solid #fff;   
+}
+.award-image-container img{
+    height: 52px;
+    width: auto;
+}
+.award-card{
+    background-color: #fff;
+    width: 420px;
+}
+.award-card-content{
+    padding: 28px;
+}
+.spacer-24{
+    width: 24px;
+    height: 24px;   
+}
