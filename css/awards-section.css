@@ -7,11 +7,7 @@
 .award-heading{
     margin-bottom: 36px;
 }
-h3{
-    font-family: 'TBCXBold';
-    font-size: 16px;
 
-}
 .award-card-container{
     display: flex;
     gap: 20px;
@@ -32,8 +28,4 @@ h3{
 }
 .award-card-content{
     padding: 28px;
-}
-.spacer-24{
-    width: 24px;
-    height: 24px;   
 }

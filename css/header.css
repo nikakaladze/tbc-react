@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body {
     background-color: #f9fafa;
 }
@@ -19,6 +15,8 @@ header {
     border-bottom: 1px solid #eef1f1;
     cursor: pointer;
     padding: 0px 47px;
+    position: sticky;
+    top: 0;
     
 }
 
@@ -104,8 +102,8 @@ nav ul li {
 .arrow-link {
     grid-column-gap: 6px;
     color: #182cc0;
-    text-transform: uppercase;
-    flex: none;
+    
+    
     align-items: center;
     font-size: 14px;
     font-family: 'TBCXBold';
@@ -113,3 +111,5 @@ nav ul li {
     display: flex;
 
 }
+
+

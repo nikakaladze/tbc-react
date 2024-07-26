@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .footer{
     padding-top: 60px;
@@ -14,16 +10,7 @@
     
 }
 
-.padding-global{
-    padding-left: 47px;
-    padding-right: 47px;
-}
-.container{
-    width: 100%;
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .footer-top-inner{
     display: flex;
     justify-content: space-between;
