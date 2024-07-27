@@ -82,3 +82,24 @@
     display: grid;
 
 }
+
+@media (width < 991){
+    .padding-global {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .become-concept{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .grid-image{
+        min-height: 232px;
+        grid-column-gap: 15px;
+    }
+    .grid-card{
+        grid-column-gap: 30px;
+    }
+}
+

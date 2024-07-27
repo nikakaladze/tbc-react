@@ -14,7 +14,7 @@
 
 }
 .award-card-container{
-    height: 241px;
+    /* height: 241px; */
     border-radius: 8px;
     border: 1px solid #fff;   
 }
@@ -25,6 +25,7 @@
 .award-card{
     background-color: #fff;
     width: 420px;
+    /* flex-shrink: 0; akac sworia ashkarad  */
 }
 .award-card-content{
     padding: 28px;

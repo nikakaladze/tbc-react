@@ -1,18 +1,20 @@
-.products-section{
+.products-section {
     padding-bottom: 60px;
     padding-top: 60px;
 }
 
 
-.product-header-wrapper{
+.product-header-wrapper {
     margin-bottom: 36px;
 }
-.product-card-container{
+
+.product-card-container {
     display: flex;
     gap: 30px;
 
 }
-.product-card{
+
+.product-card {
     width: 421px;
     border: 1px solid #e9e9e9;
     border-radius: 8px;
@@ -20,14 +22,22 @@
 }
 .product-card-image img{
     width: 100%;
-    /* background-size: cover; */
    height: 256px;
+   
 
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 
 }
-.product-card-content{
+
+.product-card-content {
     padding: 28px;
-   
+
+}
+
+@media (width < 991px){
+    .product-card{
+        width: 350px;
+        /* flex-shrink: 0;    jay es ak Sworia chemiazrit prosta sxvagan mak ashkarad arasworad gawerili; width */
+    }
 }

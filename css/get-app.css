@@ -22,7 +22,11 @@ align-items: center;
     flex-direction: column;
     align-items: flex-start;
 }
-
+.get-app-text{
+    color: #555F62;
+    font-size: 14px;
+    font-family: 'TBCXRegular';
+}
 .get-app-buttons{
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -49,4 +53,73 @@ align-items: center;
 .playstore,.ios img{
     padding: 16px 32px;
 
+}
+
+.download{
+    display: none;  
+}
+
+
+.image-wrapper img{
+    width:370px;
+    height: 336px;
+}
+
+.get-app-mobile-responsive{
+    display: none;
+}
+
+
+
+@media (width < 991px){
+    .ios, .playstore{
+        display: none;
+    }
+    .download-button{
+        display: flex;
+        padding: 16px 32px;
+        border: 1px solid #182cc0;
+        background: #F9FAFA;
+        align-items: center;
+    }
+    .download{
+        font-size: 12px;
+        font-family:'TBCXBold';
+        text-decoration: none;
+        display: flex;
+        
+    }
+    .image-wrapper img{
+        height:270px;
+    }
+
+    .get-app-content{
+        width: 394px;
+    }
+
+
+}
+
+@media (width < 768px){
+
+    .get-app-inner{
+        display: none;
+    }
+    .get-app-mobile-responsive{
+        display: flex;
+        flex-direction: column;
+        margin:0 auto ;
+        width:100%;
+       gap: 30px;
+        padding-left: 47px;
+    }
+    .download-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .get-app-mobile{
+        width: 370px;
+        height: 482px;
+    }
 }

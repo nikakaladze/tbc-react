@@ -14,3 +14,9 @@
     font-family: 'TBCXMedium';
     line-height: 1.5;
 }
+
+@media (width < 768px){
+    .big-message-text{
+        font-size: 28px;
+    }
+}

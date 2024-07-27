@@ -37,3 +37,11 @@ span{
     font-size: 16px;
     color: #555F62;
 }
+
+@media (max-width:991px){
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 30px;
+    }
+}
