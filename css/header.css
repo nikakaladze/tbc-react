@@ -165,6 +165,9 @@ nav ul li {
         .logo{
             display: none;
         }
+        .lang-toggle{
+            display: none;
+        }
         header{
             display: flex;
             justify-content: space-between;
