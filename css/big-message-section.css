@@ -1,22 +1,17 @@
-
-
-.section-big-message{
+.section-big-message {
     padding-top: 60px;
     padding-bottom: 60px;
-
-}
-
-
-
-.big-message-text{
+  }
+  
+  .big-message-text {
     color: #141719;
     font-size: 32px;
-    font-family: 'TBCXMedium';
+    font-family: "TBCXMedium";
     line-height: 1.5;
-}
-
-@media (width < 768px){
-    .big-message-text{
-        font-size: 28px;
+  }
+  
+  @media (width < 768px) {
+    .big-message-text {
+      font-size: 28px;
     }
-}
+  }

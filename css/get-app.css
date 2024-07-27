@@ -1,41 +1,45 @@
-.get-app-section{
-    padding-bottom: 60px;
-    padding-top: 60px;
+.get-app-section {
+    padding-top: 32px;
     background-color: #fff;
     margin-top: 60px;
-    
-
-}
-
-
-
-
-.get-app-inner{
-display: flex;
-justify-content: space-between;
-align-items: center;
-
-}
-.get-app-content{
+  }
+  
+  .get-app-inner {
     display: flex;
-    grid-row-gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .get-app-content {
+    display: flex;
+    row-gap: 16px;
     flex-direction: column;
     align-items: flex-start;
-}
-.get-app-text{
-    color: #555F62;
+    padding-bottom: 32px;
+  }
+  .get-app-text {
+    color: #555f62;
     font-size: 14px;
-    font-family: 'TBCXRegular';
-}
-.get-app-buttons{
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
+    font-family: "TBCXRegular";
+  }
+  .get-app-buttons {
+    gap: 16px;
+    row-gap: 16px;
     flex-wrap: wrap;
     margin-top: 8px;
     display: flex;
-}
-
-.playstore,.ios{
+  }
+  
+  .get-app-buttons .ios:hover,
+  .get-app-buttons .playstore:hover {
+    background: #f9fafa;
+  }
+  
+  .get-app-section .mobile-img {
+    height: 336px;
+  }
+  
+  .playstore,
+  .ios {
     border: 1px solid #e1e4e5;
     border-radius: 4px;
     justify-content: center;
@@ -44,82 +48,76 @@ align-items: center;
     font-weight: 700;
     line-height: 1.33;
     text-decoration: none;
-    display: flex
-}
-.image-wrapper img{
+    display: flex;
+  }
+  .image-wrapper img {
     height: 337px;
     object-fit: contain;
-}
-.playstore,.ios img{
+  }
+  .playstore,
+  .ios img {
     padding: 16px 32px;
-
-}
-
-.download{
-    display: none;  
-}
-
-
-.image-wrapper img{
-    width:370px;
-    height: 336px;
-}
-
-.get-app-mobile-responsive{
+  }
+  
+  .download {
     display: none;
-}
-
-
-
-@media (width < 991px){
-    .ios, .playstore{
-        display: none;
+  }
+  
+  .image-wrapper img {
+    width: 370px;
+    height: 336px;
+  }
+  
+  .get-app-mobile-responsive {
+    display: none;
+  }
+  
+  @media (width < 991px) {
+    .ios,
+    .playstore {
+      display: none;
     }
-    .download-button{
-        display: flex;
-        padding: 16px 32px;
-        border: 1px solid #182cc0;
-        background: #F9FAFA;
-        align-items: center;
+    .download-button {
+      display: flex;
+      padding: 16px 32px;
+      border: 1px solid #182cc0;
+      background: #f9fafa;
+      align-items: center;
     }
-    .download{
-        font-size: 12px;
-        font-family:'TBCXBold';
-        text-decoration: none;
-        display: flex;
-        
+    .download {
+      font-size: 12px;
+      font-family: "TBCXBold";
+      text-decoration: none;
+      display: flex;
     }
-    .image-wrapper img{
-        height:270px;
+    .image-wrapper img {
+      height: 270px;
     }
-
-    .get-app-content{
-        width: 394px;
+  
+    .get-app-content {
+      width: 394px;
     }
-
-
-}
-
-@media (width < 768px){
-
-    .get-app-inner{
-        display: none;
+  }
+  
+  @media (width < 768px) {
+    .get-app-inner {
+      display: none;
     }
-    .get-app-mobile-responsive{
-        display: flex;
-        flex-direction: column;
-        margin:0 auto ;
-        width:100%;
-       gap: 30px;
-        padding-left: 47px;
+    .get-app-mobile-responsive {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 100%;
+      gap: 30px;
+      padding-left: 47px;
     }
-    .download-button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .download-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .get-app-mobile{
-        width: 370px;
-        height: 482px;
+    .get-app-mobile {
+      width: 370px;
+      height: 482px;
     }
-}
+  }
