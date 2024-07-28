@@ -7,8 +7,6 @@ This repository contains the source code for the TBC Concept website. The websit
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Structure
 
@@ -48,11 +46,11 @@ To get a local copy of the project up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/TBC-Concept.git
+   git clone https://github.com/yourusername/tbc-react.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd TBC-Concept
+   cd tbc-react
    ```
 
 ## Usage
