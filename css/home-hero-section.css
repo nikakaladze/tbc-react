@@ -1,135 +1,154 @@
 .breadcrumbs-component {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-  
-  .breadcrumbs {
-    gap: 4px;
-    color: #555f62;
-    flex-wrap: wrap;
-    flex: 1;
-    align-items: center;
-    font-size: 12px;
-    display: flex;
-    overflow: hidden;
-  }
-  
-  .breadcrumbs-current-page {
-    color: #141719;
-    font-family: "TBCXMedium";
-    font-size: 12px;
-  }
-  
-  /* /////////////////////////////////////////// */
-  
-  .section-home-hero {
-    padding-bottom: 60px;
-    padding-top: 32px;
-  }
-  
-  .banner {
-    color: #fff;
-    border-radius: 6px;
-    position: relative;
-    background-position: cener;
-    background: #000;
-  }
-  
-  .banner::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.7;
-    background: url(../image/main-chair.webp) no-repeat center;
-    background-size: cover;
-    border-radius: 6px;
-  }
-  
-  .banner.img-2::after {
-    background-image: url(../image/women.png);
-    background-size: cover;
-  }
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.breadcrumbs {
+  gap: 4px;
+  color: #555f62;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+  font-size: 12px;
+  display: flex;
+  overflow: hidden;
+}
+
+.breadcrumbs-current-page {
+  color: #141719;
+  font-family: "TBCXMedium";
+  font-size: 12px;
+}
+
+/* /////////////////////////////////////////// */
+
+.section-home-hero {
+  padding-bottom: 60px;
+  padding-top: 32px;
+}
+
+.banner {
+  color: #fff;
+  border-radius: 6px;
+  position: relative;
+  background-position: cener;
+  background: #000;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background: url(../image/main-chair.webp) no-repeat center;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.banner.img-2::after {
+  background-image: url(../image/women.png);
+  background-size: cover;
+}
+
+.banner-content {
+  padding: 91px;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-inner {
+  height: 100%;
+  max-width: 450px;
+}
+
+.spacer-16 {
+  width: 16px;
+  height: 16px;
+}
+
+.section-home-hero p {
+  font-size: 14px;
+  font-family: "TBCXRegular";
+  line-height: 23.8px;
+}
+
+.spacer-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.section-home-hero button {
+  display: flex;
+  padding: 16px 24px;
+  gap: 6px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.33em;
+  font-family: "TBCXBold";
+  color: #fff;
+  background-image: linear-gradient(15deg, #001682, #3240e5);
+  cursor: pointer;
+}
+
+.section-home-hero button:hover {
+  color: #fff;
+  background-image: linear-gradient(15deg, #007aff, #3295ce);
+  cursor: pointer;
+}
+
+.section-home-hero button svg {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
   .banner-content {
-    padding: 91px;
-    min-height: 360px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: 1;
+    padding: 240px 45px 36px;
   }
-  
+
+  .banner {
+    background-position: center;
+    height: auto;
+  }
+}
+
+@media (width < 768px) {
+  .section-home-hero .padding-global {
+    padding: 0;
+  }
+
+  .banner-content {
+    padding: 172px 15px 20px;
+  }
+
+  .banner {
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0;
+  }
+
+  .banner:after {
+    border-radius: 0;
+  }
+
   .banner-inner {
-    height: 100%;
-    max-width: 450px;
+    max-width: 671px;
   }
-  
-  .spacer-16 {
-    width: 16px;
-    height: 16px;
+
+  .banner-inner .text-color-white {
+    font-size: 16px;
   }
-  
-  .section-home-hero p {
-    font-size: 14px;
-    font-family: "TBCXRegular";
-    line-height: 23.8px;
-  }
-  
-  .spacer-24 {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .section-home-hero button {
+
+  .banner-inner button {
+    width: 100%;
     display: flex;
-    padding: 16px 24px;
-    gap: 6px;
-    border: none;
-    border-radius: 4px;
-    font-size: 12px;
-    line-height: 1.33em;
-    font-family: "TBCXBold";
-    color: #fff;
-    background-image: linear-gradient(15deg, #001682, #3240e5);
-    cursor: pointer;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .section-home-hero button:hover {
-    color: #fff;
-    background-image: linear-gradient(15deg, #007aff, #3295ce);
-    cursor: pointer;
-  }
-  
-  .section-home-hero button svg {
-    color: #fff;
-  }
-  
-  @media (max-width: 991px) {
-    .banner-content {
-      padding: 240px 45px 36px;
-    }
-  
-    .banner {
-      background-position: center;
-      height: auto;
-    }
-  }
-  
-  @media (width < 768px) {
-    .banner {
-      width: 100%;
-      background-repeat: no-repeat;
-    }
-    .banner-inner {
-      max-width: 671px;
-    }
-    .banner-inner button {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+}
